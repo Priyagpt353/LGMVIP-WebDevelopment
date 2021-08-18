@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
+
+body{
+  background: linear-gradient(to right, #cc6fa0, #cf62a8, #cf55b4, #cb49c2, #c33fd2, #ba37da, #ae31e3, #9f2dec, #9324ed, #851cef, #7513f0, #620af2);
+}
+.image-position {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.image {
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition:0.4s ease;
+  background: linear-gradient(to right, #cc6fa0, #cf62a8, #cf55b4, #cb49c2, #c33fd2, #ba37da, #ae31e3, #9f2dec, #9324ed, #851cef, #7513f0, #620af2);
+
+}
+.container .card:hover {
+  background:#cb49c2 !important;
+  transform: translateY(-20px);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4 {
+  font-family: 'PT Serif', serif;
+  color:#fff;
+  font-weight: bold;
+  text-align: center;
+  text-shadow :4px 4px 4px grey;
+}
+
+h6 {
+  font-family: "Noto Serif JP", serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-shadow :1px 1px 1px grey;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}

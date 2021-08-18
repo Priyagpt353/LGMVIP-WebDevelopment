@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap");
+body {
+  overflow-x: hidden;
+}
+.bg-default {
+  background-color: #cb49c2 !important;
+  height: 70px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand {
+  font-family: "Noto Serif TC", serif;
+  font-size: xx-large;
+  text-shadow :1px 1px 1px black;
+
+}
+
+.button {
+  font-family: 'PT Serif', serif;
+  padding: 5px 25px;
+  border-radius:200px;
+	text-shadow: 2px 2px 3px white;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+	font-weight: bold;
+	background: linear-gradient(to right, #f8f8f9, #f8f8f9, #f8f8fa, #f9f8fa, #f9f8fa, #f6f5f7, #f4f2f5, #f1eff2, #ebe9ec, #e6e2e5, #e0dcdf, #dad6d8);
+  ;
+}
+.button:hover
+{
+  color:#fff;
+	background: linear-gradient(to right, #cc6fa0, #cf62a8, #cf55b4, #cb49c2, #c33fd2, #ba37da, #ae31e3, #9f2dec, #9324ed, #851cef, #7513f0, #620af2);
+  text-shadow :1px 1px 1px black;
+}
+
+.loader-position {
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  margin-top: 10%;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  border-top: 10px solid #cb49c2;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.card-display {
+  display: flex;
+  justify-content: center;
+}
